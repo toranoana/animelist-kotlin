@@ -1,0 +1,16 @@
+data class AnimeInfo(
+        var title_short2: String,
+        var twitter_account: String,
+        var public_url: String,
+        var title_short1: String,
+        var sex: Int,
+        var twitter_hash_tag: String,
+        var id: Int,
+        var sequel: Int,
+        var created_at: String,
+        var city_name: String,
+        var cours_id: String,
+        var title: String,
+        var city_code: Int,
+        var title_short3: String,
+        var updated_at: String)

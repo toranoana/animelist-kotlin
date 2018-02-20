@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="jp"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:text="${mainTitle}"></h1>
+    <form action="./get" method="get">
+        <input type="text" name="date"/>
+        <input type="submit" value="取得"/>
+    </form>
+    <ul>
+        <li th:each="animeTitle : ${animeList}" th:text="${animeTitle}"></li>
+    </ul>
+</body>
+</html>
